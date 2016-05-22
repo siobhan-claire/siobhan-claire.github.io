@@ -1,3 +1,34 @@
 body {
-  background: #FFF05F;
+  background: #FF99CC;
+}
+
+h3 {
+  font-family: Helvetica;
+  color: white;
+}
+
+p {
+  color: white;
+  font-family: helvetica;
+}
+
+h1 {
+  color: white;
+  font-family: helvetica;
+}
+
+h2 {
+  color: white;
+  font-family: helvetica;
+}
+
+ul li {
+  list-style-type: none;
+  color: white;
+  font-family: helvetica;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
