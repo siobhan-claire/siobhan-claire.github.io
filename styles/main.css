@@ -62,3 +62,31 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 400px) {
+.a button {
+  display:inline-flex;
+  text-align: center;
+  width :100%
+}
+
+@media (max-width: 550px) {
+.a button {
+   display: inline-flex;
+     text-align: center;
+  width:100%;
+}
+}
+@media (max-width: 750px) {
+.a button {
+  display: inline-flex;
+    text-align: center;
+  width:50%;
+}
+
+@media (max-width: 1000px) {
+.a button{
+   display: inline-flex;
+     text-align: center;
+  width:25%;
+}
