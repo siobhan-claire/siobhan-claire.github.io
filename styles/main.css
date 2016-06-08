@@ -13,6 +13,10 @@ h3 {
   border: none;
 }
 
+a:hover {
+  color: black;
+}
+
 img {
 transform:rotate(90deg);
 }
@@ -37,7 +41,7 @@ footer {
   list-style-type: none;
   text-align: center;
   width:100%;
-  border:solid 3px white;
+  border:none;
   border-radius:5px;
   background: #FF99CC;
   margin: 5px; 
