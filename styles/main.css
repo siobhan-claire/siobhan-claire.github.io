@@ -1,0 +1,60 @@
+body {
+  background: #FF99CC;
+}
+
+h3 {
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  color: white;
+  border: none;
+}
+
+img {
+transform:rotate(90deg);
+}
+
+p {
+  color: white;
+  font-family: helvetica;
+}
+
+h1 {
+  color: white;
+  font-family: helvetica;
+}
+
+h2 {
+  color: white;
+  font-family: helvetica;
+}
+
+
+footer {
+  list-style-type: none;
+  text-align: center;
+  width:100%;
+  border:solid 3px white;
+  border-radius:5px;
+  background: #FF99CC;
+  margin: 5px; 
+}
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #FF99CC;
+  font-family: helvetica;
+}
+  
+
+a {
+  color: white;
+  text-decoration: none;
+}
