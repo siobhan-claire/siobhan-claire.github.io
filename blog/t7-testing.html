@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+  </head>
+  <body>
+
+  <header>
+    <div class= "row">
+      <div class="container">
+        <h3>Siobhan O'Connor Enspiral Dev Academy 2016</h3>
+         <hr>
+          <div class= "twelve columns">
+           <div class= "three columns"><a class="button"href="http://siobhan-claire.github.io/index.html"> Home</a></div>
+           <div class="three columns"><a class="button"href="http://siobhan-claire.github.io/blog.html"> Blog</a></div>
+           <div class="three columns"><a class="button"href="http://siobhan-claire.github.io/about.html"> About</a></div>
+           <div class="three columns"><a class="button"href="http://siobhan-claire.github.io/contact.html">Contact</a></div>
+          </div>
+      </div>
+    </div>
+  </header>
+  <hr>
+
+   <h2><strong>What is scope, and how does it works in JavaScript.</strong></h2>
+   <p>In JavaScript scope refers to the the current context of you code. It has two scopes: global and local. Before you write a line of code you are in the global scope and if a variable is declared then and there it is defined globally:</p>
+   <pre><code>   //global scope
+   var name = "Siobhan";</code></pre>
+
+   <p>A local scope on the other hand, refers to any scope defined past the global scope. A variable that is declared inside a function definition is local and it cannot be accessed by any code outside the function. Any function defined within another function also has a local scope which is linked to the outer function. If a function is defined and variables are created inside it, those variables become locally scoped:</p>
+   <pre><code>  // Scope A: Global scope out here
+   var myFunction = function () {
+  // Scope B: (variables) Local scope in here
+  };</code></pre>
+
+  <p>As mentioned earlier, any locally scoped items are not visible in the global scope. If functions or variables are defined within a new scope, they cannot be accesssed from outside of their current scope:</p>
+  <pre><code>var myFunction = function () {
+  var name = "Siobhan";
+  console.log(name); // Siobhan
+  };
+  // Uncaught ReferenceError: name is not defined
+  console.log(name);</code></pre>
+
+  <p>Also it is important to note that a local variable can have the same name as a global variable, but it is entirely separate; changing the value of one variable has no effect on the other. Only the local version has meaning inside the function in which it is declared.
+
+   <footer>
+   <p> &copy; Siobhan O'Connor 2016 </p>
+   </footer> 
+
+   </body>
+  </html>
